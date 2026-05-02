@@ -26,17 +26,3 @@ Built with **LangGraph**, **FastAPI**, and **Azure AI Services**, this system au
 * **AI & Orchestration:** LangChain, LangGraph, Azure OpenAI Service
 * **Cloud Infrastructure (Azure):** Azure Video Indexer, Azure AI Search (Vector DB), Azure Blob Storage
 * **Observability:** Azure Application Insights, LangSmith
-
-## Project Structure
-
-
-├── backend/
-│   ├── data/                  # Compliance rulebooks (PDFs)
-│   ├── scripts/               # Utility scripts (e.g., index_documents.py for Vector DB)
-│   ├── source/
-│   │   ├── api/               # FastAPI server and Telemetry setup
-│   │   ├── graph/             # LangGraph state, nodes, and workflow definitions
-│   │   └── services/          # Azure Video Indexer integrations
-├── main.py                    # Application entry point
-├── pyproject.toml / uv.lock   # Dependency management
-└── README.md                  # Project documentation
